@@ -1,0 +1,180 @@
+body {
+    margin: 30px;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    border: 1px solid black;
+    background-color: #ffff;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.webshop-navbar-container-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.webshop-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo img {
+    width: 250px; 
+    height: auto;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 40px;
+    margin-left: -120px;
+}
+
+.navbar {
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 900px;
+}
+
+.webshop-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.webshop-menu-item {
+    margin: 0;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.webshop-menu-item a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.square-box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    margin-top: -100px;
+}
+
+.webshop-main-section {
+    padding: 20px;
+    margin-top: -50px;
+}
+
+.Webshop_text_below{
+    text-align: center;
+    font-size: 30px;
+}
+
+.webshop-content-box {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.webshop-left-section {
+    flex: 1;
+}
+
+.webshop-right-section {
+    flex: 2;
+    display: flex;
+}
+
+.webshop-intro{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.webshop-Square{
+    border: 2px solid #000;
+    min-height: 300px;
+    min-width: 100%;
+}
+
+.footer {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1350px) {
+
+    .navbar {
+        width: 800px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 1240px) {
+
+    .navbar {
+        width: 700px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .navbar {
+        width: 700px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 1150px) {
+
+    .navbar {
+        width: 100%;
+
+    }
+
+    .webshop-header{
+        flex-direction: column;
+    }
+
+    .square-box{
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header-text h1{
+        margin: 0;
+    }
+
+
+}
